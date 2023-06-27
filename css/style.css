@@ -85,8 +85,9 @@ nav .links * {
 .main_body img {
     margin-bottom: 10%;
     margin-top: 10%;
-    width: 400px;
-    height: 200px;
+    margin-left: 3%;
+    width: 85%;
+    height: 240px;
     background-color: #6D737C;
     color: #F9FAF8;
     justify-content: center;
