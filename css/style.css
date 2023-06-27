@@ -51,12 +51,12 @@ nav .links * {
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    border: 2px solid pink;
+    /*border: 2px solid pink;*/
 }
 
 .main_body * {
     flex: 1;
-    border: 2px solid pink;
+    /*border: 2px solid pink;*/
 }
 
 .main_body h2 {
@@ -93,6 +93,33 @@ nav .links * {
     justify-content: center;
 }
 
+.RI {
+    display: flex;
+    border: 2px solid pink;
+}
+
+.RandomInformation h2 {
+    flex: 1;
+    text-align: center;
+}
+
+.SubtextImages {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.SubtextImages * {
+    flex: 1;
+    font-size: 18px;
+}
+
+.SubtextImages img {
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+}
 
 .footer {
     border: pink;
