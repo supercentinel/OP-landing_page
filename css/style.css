@@ -155,6 +155,64 @@ nav .links * {
     font-size: 18px;
 }
 
+.bottomSignUp {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.bottomSignUp .blue {
+    background-color: #3882F6;
+    color: whitesmoke;
+    flex: 1;
+    flex-direction: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    display: flex;
+}
+
+.bottomSignUp .text {
+    flex: 2;
+    justify-content: center;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+.bottomSignUp .button {
+    background-color: #3882F6;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bottomSignUp .button button {
+    margin-top: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+    background: #3882F6;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.bottomSignUp .text h3 {
+    margin-bottom: 0%;
+}
+
+.bottomSignUp .text p {
+    font-size: 15px;
+    margin-top: 0%;
+}
+
+.bottomSignUp .text * {
+    margin-left: 10%;
+}
+
 .footer {
     border: pink;
     align-self: auto;
